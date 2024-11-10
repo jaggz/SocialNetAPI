@@ -44,7 +44,7 @@ const userSchema = new Schema<IUser>(
             virtuals: true,
         },
         timestamps: false,
-        id:false
+        id:false,
     },
 );
 
